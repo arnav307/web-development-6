@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- internal css -->
+    <style>
+        /* element selector */
+        div{
+            background-color:blue;
+        }
+        .css-class{
+            color:rgb(255, 251, 0);
+            background-color:rgb(255, 255, 22);
+        }
+        /* child selector */
+        div > h1{
+            color:green;
+        }
+        /* decendent selector */
+        div h1{
+            color:rgb(255, 148, 109);
+        }
+        /* universal selector */
+        *{
+            margin:0;
+            padding:0;
+            background-color: rgb(255, 255, 255);
+        }
+        /* pseudo selector */
+        a:visiited{
+            color:rgb(251, 255, 0)
+        }
+        a:hover{
+            color:rgb(255, 255, 255);
+        }
+
+    </style>
+</head>
+<body>
+    <!-- inline css -->
+    <h1 style="color:yellow;background-color:red;"> about me</h1>
+    <div>I am a good boy.Does it make any sense.</div>
+    <p>hello everybody how are you?</p>
+
+
+    <div class="css-class">
+        <h1>i am a div</h1>
+        <a href="https://www.google.com">click me</a>
+    </div>
+</body>
+</html>
